@@ -1,0 +1,30 @@
+.coming-soon-container {
+  background-image: linear-gradient(134deg, #3023AE 0%, #7343C0 83%);
+  height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 300px;
+
+  h1 {
+    font: 72px "Didot", serif;
+  }
+
+  h2 {
+    font: 36px "Avenir Next", sans-serif;
+  }
+
+  .social-links-container {
+    margin-top: 12px;
+
+    .twitter-icon {
+      margin-right: 16px;
+    }
+
+    a:hover {
+      path {
+        transition: fill 0.5s ease;
+        fill: #3023AE;
+      }
+    }
+  }
+}

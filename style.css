@@ -1,0 +1,93 @@
+/*
+Theme Name: Twenty Fourteen
+Theme URI: http://wordpress.org/themes/twentyfourteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: In 2014, our default theme lets you create a responsive magazine website with a sleek, modern design. Feature your favorite homepage content in either a grid or a slider. Use the three widget areas to customize your website, and change your content's layout with a full-width page template and a contributor page to show off your authors. Creating a magazine website with WordPress has never been easier.
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* line 5, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../.rvm/gems/ruby-2.5.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, assets/scss/_coming-soon.scss */
+.coming-soon-container {
+  background-image: linear-gradient(134deg, #3023ae 0%, #7343c0 83%);
+  height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 300px; }
+  /* line 8, assets/scss/_coming-soon.scss */
+  .coming-soon-container h1 {
+    font: 72px "Didot", serif; }
+  /* line 12, assets/scss/_coming-soon.scss */
+  .coming-soon-container h2 {
+    font: 36px "Avenir Next", sans-serif; }
+  /* line 16, assets/scss/_coming-soon.scss */
+  .coming-soon-container .social-links-container {
+    margin-top: 12px; }
+    /* line 19, assets/scss/_coming-soon.scss */
+    .coming-soon-container .social-links-container .twitter-icon {
+      margin-right: 16px; }
+    /* line 24, assets/scss/_coming-soon.scss */
+    .coming-soon-container .social-links-container a:hover path {
+      transition: fill 0.5s ease;
+      fill: #3023AE; }
